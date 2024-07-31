@@ -6,7 +6,7 @@ import SmartWatchSvg from '@/app/Assets/Icons/Category-SmartWatch.svg';
 import CamerSvg from '@/app/Assets/Icons/Category-Camera.svg';
 import HeadPhonesSvg from '@/app/Assets/Icons/Category-Headphone.svg';
 import GamingSvg from '@/app/Assets/Icons/Category-Gamepad.svg';
-import HeaderTitle from './Main_Heading';
+import HeaderTitle from '@/app/Components/Main_Heading';
 import LeftArrowSvg from '@/app/Assets/Icons/icons_arrow-left.svg';
 import RightArrowSvg from '@/app/Assets/Icons/icons arrow-right.svg';
 

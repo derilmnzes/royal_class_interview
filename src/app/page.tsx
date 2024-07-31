@@ -3,9 +3,9 @@ import Link from "next/link";
 import IphoneImage from '@/app/Assets/Images/hero_endframe__cvklg0xk3w6e_large 2.png'
 import RightSvg from '@/app/Assets/Icons/right_white.svg'
 import { CategoryItem, Product_type } from "./types/interface";
-import Card_component from "./Components/Card_component";
-import Category from "./Components/Category";
-import HeaderTitle from "./Components/Main_Heading";
+import Card_component from "@/app/Components/Card_component";
+import Category from "@/app/Components/Category";
+import HeaderTitle from "@/app/Components/Main_Heading";
 import PlayStationSvg from '@/app/Assets/Images/ps5-slim-goedkope-playstation_large 1.png'
 import WomeCap from '@/app/Assets/Images/attractive-woman-wearing-hat-posing-black-background 1.png'
 import Speaker from '@/app/Assets/Images/Frame 707.png'
@@ -13,7 +13,7 @@ import Perfume from '@/app/Assets/Images/Frame 706.png'
 import TruckSvg from '@/app/Assets/Icons/icon-delivery.svg'
 import CustomerSupportSvg from '@/app/Assets/Icons/Icon-Customer service.svg'
 import SecureSvg from '@/app/Assets/Icons/Icon-secure.svg'
-import Button_component from "./Components/Button_component";
+import Button_component from "@/app/Components/Button_component";
 
 
 

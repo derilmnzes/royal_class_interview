@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 
 
 import "./globals.css";
-import Header from "./Components/Header";
-import Footer from "./Components/Footer";
-import { inter, poppins } from "./fonts/fonts";
+import Header from "@/app/Components/Header";
+import Footer from "@/app/Components/Footer";
+import { inter, poppins } from "@/app/fonts/fonts";
 
 
 
