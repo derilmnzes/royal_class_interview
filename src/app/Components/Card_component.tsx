@@ -2,7 +2,7 @@ import React from 'react';
 import { Product_type } from '@/app/types/interface';
 import Image from 'next/image';
 import HeartSvg from '@/Assets/Icons/heart small.svg';
-import QuickViewSvg from '@/Assets/Icons/Quick View.svg';
+import QuickViewSvg from '@/Assets/Icons/quick_view.svg';
 import StarSvg from '@/Assets/Icons/star.svg';
 
 

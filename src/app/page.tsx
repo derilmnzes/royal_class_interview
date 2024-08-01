@@ -11,8 +11,8 @@ import WomeCap from '@/Assets/Images/attractive-woman-wearing-hat-posing-black-b
 import Speaker from '@/Assets/Images/Frame 707.png'
 import Perfume from '@/Assets/Images/Frame 706.png'
 import TruckSvg from '@/Assets/Icons/icon-delivery.svg'
-import CustomerSupportSvg from '@/Assets/Icons/Icon-Customer service.svg'
-import SecureSvg from '@/Assets/Icons/Icon-secure.svg'
+import CustomerSupportSvg from '@/Assets/Icons/icon_customer_service.svg'
+import SecureSvg from '@/Assets/Icons/icon-secure.svg'
 import Button_component from "@/app/Components/Button_component";
 
 

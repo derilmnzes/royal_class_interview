@@ -1,14 +1,14 @@
 'use client'
 import React, { useState } from 'react';
-import MobileSvg from '@/Assets/Icons/Category-CellPhone.svg';
-import DesktopSvg from '@/Assets/Icons/Category-Computer.svg';
-import SmartWatchSvg from '@/Assets/Icons/Category-SmartWatch.svg';
-import CamerSvg from '@/Assets/Icons/Category-Camera.svg';
-import HeadPhonesSvg from '@/Assets/Icons/Category-Headphone.svg';
-import GamingSvg from '@/Assets/Icons/Category-Gamepad.svg';
+import MobileSvg from '@/Assets/Icons/category_cellphone.svg';
+import DesktopSvg from '@/Assets/Icons/category_computer.svg';
+import SmartWatchSvg from '@/Assets/Icons/category_smart_watch.svg';
+import CamerSvg from '@/Assets/Icons/category_camera.svg';
+import HeadPhonesSvg from '@/Assets/Icons/category_headphones.svg';
+import GamingSvg from '@/Assets/Icons/category_gameplay.svg';
 import HeaderTitle from '@/app/Components/Main_Heading';
 import LeftArrowSvg from '@/Assets/Icons/icons_arrow-left.svg';
-import RightArrowSvg from '@/Assets/Icons/icons arrow-right.svg';
+import RightArrowSvg from '@/Assets/Icons/icons_arrow-right.svg';
 
 const categories = [
     { title: 'Mobile', icon: <MobileSvg /> },

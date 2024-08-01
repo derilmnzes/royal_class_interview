@@ -1,9 +1,9 @@
 import Link from 'next/link'
 import React from 'react'
-import WishListSvg from '@/Assets/icons/Wishlist.svg'
-import CartSvg from '@/Assets/icons/Cart1 with buy.svg'
-import BottomArrowSvg from '@/Assets/Icons/DropDown.svg'
-import SearchSvg from '@/Assets/Icons/Component 2.svg'
+import WishListSvg from '@/Assets/Icons/wishlist.svg'
+import CartSvg from '@/Assets/icons/cart_with_buy.svg'
+import BottomArrowSvg from '@/Assets/Icons/dropdown.svg'
+import SearchSvg from '@/Assets/Icons/component_two.svg'
 import MenuSvg from '@/Assets/Icons/bar.svg'
 
 const Header: React.FC = () => {

@@ -3,10 +3,10 @@ import Image from 'next/image';
 import QrCodeSvg from '@/Assets/Images/Qrcode 1.png';
 import GooglePlaycode from '@/Assets/Images/png-transparent-google-play-store-logo-google-play-app-store-android-wallets-text-label-logo.png';
 import AppStore from '@/Assets/Images/download-appstore.png';
-import FaceBook from '@/Assets/Icons/Icon-Facebook.png';
+import FaceBook from '@/Assets/Icons/icon_facebook.png';
 import Instagram from '@/Assets/Icons/icon-instagram.png';
-import Linkdin from '@/Assets/Icons/Icon-Linkedin.png';
-import Twitter from '@/Assets/Icons/Icon-Linkedin.png';
+import Linkdin from '@/Assets/Icons/icon-Linkedin.png';
+import Twitter from '@/Assets/Icons/icon-Linkedin.png';
 
 const Footer: React.FC = () => {
     return (
