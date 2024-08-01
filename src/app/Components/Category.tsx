@@ -1,6 +1,6 @@
 'use client'
 import React, { useState } from 'react';
-import MobileSvg from '@/Assets/Icons/';
+import MobileSvg from '@/Assets/Icons/Category-CellPhone.svg';
 import DesktopSvg from '@/Assets/Icons/Category-Computer.svg';
 import SmartWatchSvg from '@/Assets/Icons/Category-SmartWatch.svg';
 import CamerSvg from '@/Assets/Icons/Category-Camera.svg';
