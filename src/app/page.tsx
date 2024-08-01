@@ -90,7 +90,7 @@ export default async function Home() {
 
         <div className="mt-5">
           <div className=" flex flex-wrap items-center justify-between">
-            {products.slice(0, 5).map((item) => (
+            {products.slice(0, 10).map((item) => (
               <Card_component key={item.id} product={{
                 title: item.title,
                 price: item.price,

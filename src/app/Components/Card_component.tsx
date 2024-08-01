@@ -7,7 +7,7 @@ import StarSvg from '@/app/Assets/Icons/star.svg';
 
 
 const getRandomDiscount = () => {
-  
+
     return Math.floor(Math.random() * (30 - 5 + 1)) + 5;
 };
 
@@ -19,11 +19,24 @@ const CardComponent: React.FC<CardComponentProps> = ({ product }) => {
     const discount = getRandomDiscount();
     const discountedPrice = product.price * (1 - discount / 100);
 
-   
+
     const stars = Array(5).fill(1).map((_, index) => (
         <StarSvg key={index} className="w-4 h-4 text-yellow-500" />
-      ));
-      
+    ));
+
+
+    const renderImage = (image: string) => {
+        try {
+            const parsed = JSON.parse(image);
+            if (Array.isArray(parsed)) {
+                return parsed[0];
+            }
+        } catch {
+        }
+        return image;
+    };
+    console.log(renderImage(product.images[0]))
+    const renderedImage = renderImage(product.images[0]);
 
     return (
         <div className='relative w-[48%] h-[300px] mb-5  md:w-[250px] md:h-[350px] group'>
@@ -38,11 +51,11 @@ const CardComponent: React.FC<CardComponentProps> = ({ product }) => {
                     <QuickViewSvg />
                 </div>
                 <Image
-                    src={product.images[0]} // Ensure this is a single string URL
+                    src={renderedImage}
                     alt={product.title}
                     priority={false}
                     sizes='100%'
-                  fill
+                    fill
                     className='w-full cursor-pointer h-full'
                 />
                 <button className='absolute bottom-0 w-full bg-black py-2 text-white opacity-0 group-hover:opacity-100 transition-opacity'>Add to Cart</button>
