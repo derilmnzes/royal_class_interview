@@ -28,7 +28,12 @@ const nextConfig = {
         return config
       },
       images: {
-        domains: ["i.imgur.com","https://products.com","upload.wikimedia.org"],
+        remotePatterns: [
+          {
+            protocol: "https",
+            hostname: "**",
+          },
+        ],
       },
 };
 
