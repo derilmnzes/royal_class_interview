@@ -1,12 +1,12 @@
 import React from 'react';
 import Image from 'next/image';
-import QrCodeSvg from '@/app/Assets/Images/Qrcode 1.png';
-import GooglePlaycode from '@/app/Assets/Images/png-transparent-google-play-store-logo-google-play-app-store-android-wallets-text-label-logo.png';
-import AppStore from '@/app/Assets/Images/download-appstore.png';
-import FaceBook from '@/app/Assets/Icons/Icon-Facebook.png';
-import Instagram from '@/app/Assets/Icons/icon-instagram.png';
-import Linkdin from '@/app/Assets/Icons/Icon-Linkedin.png';
-import Twitter from '@/app/Assets/Icons/Icon-Linkedin.png';
+import QrCodeSvg from '@/Assets/Images/Qrcode 1.png';
+import GooglePlaycode from '@/Assets/Images/png-transparent-google-play-store-logo-google-play-app-store-android-wallets-text-label-logo.png';
+import AppStore from '@/Assets/Images/download-appstore.png';
+import FaceBook from '@/Assets/Icons/Icon-Facebook.png';
+import Instagram from '@/Assets/Icons/icon-instagram.png';
+import Linkdin from '@/Assets/Icons/Icon-Linkedin.png';
+import Twitter from '@/Assets/Icons/Icon-Linkedin.png';
 
 const Footer: React.FC = () => {
     return (

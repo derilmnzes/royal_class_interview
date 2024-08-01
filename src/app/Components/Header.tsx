@@ -1,10 +1,10 @@
 import Link from 'next/link'
 import React from 'react'
-import WishListSvg from '@/app/Assets/icons/Wishlist.svg'
-import CartSvg from '@/app/Assets/icons/Cart1 with buy.svg'
-import BottomArrowSvg from '@/app/Assets/Icons/DropDown.svg'
-import SearchSvg from '@/app/Assets/Icons/Component 2.svg'
-import MenuSvg from '@/app/Assets/Icons/bar.svg'
+import WishListSvg from '@/Assets/icons/Wishlist.svg'
+import CartSvg from '@/Assets/icons/Cart1 with buy.svg'
+import BottomArrowSvg from '@/Assets/Icons/DropDown.svg'
+import SearchSvg from '@/Assets/Icons/Component 2.svg'
+import MenuSvg from '@/Assets/Icons/bar.svg'
 
 const Header: React.FC = () => {
     return (
